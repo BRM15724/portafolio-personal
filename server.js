@@ -5,7 +5,7 @@ const path = require('path');
 const app = express();
 
 // Serve only the static files form the dist directory
-app.use(express.static('./dist/angular-app-heroku'));
+app.use(express.static('./dist/portafolio-personal'));
 
 // For all GET requests, send back index.html so that PathLocationStrategy can be used
 app.get('/*', function(req, res) {
